@@ -596,6 +596,10 @@
     [
       "116fbb89-e37f-4c3a-9c8d-2bed8ddf28cc",
       "CAN Sub-D"
+    ],
+    [
+      "f41f9e10-c9db-46df-9898-e9f35bc46669",
+      "UARTs"
     ]
   ],
   "text_variables": {}

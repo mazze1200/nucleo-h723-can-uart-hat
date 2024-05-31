@@ -13,3 +13,10 @@ y 120.874665
 CN10
 x 171.357125
 y 118.334665
+
+
+# Diconium Sub-D 
+Pin 1 = TXD / PIN16
+Pin 6 = RXD / PIN17
+Pin 3 = GND
+
