@@ -1080,7 +1080,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "CAN 2 Low"
 			(at 58.42 63.5 0)
 			(effects
 				(font
@@ -1239,7 +1239,7 @@
 				)
 			)
 		)
-		(property "Value" "Jumper_2_Bridged"
+		(property "Value" "CAN 2 High"
 			(at 58.42 50.8 0)
 			(effects
 				(font
