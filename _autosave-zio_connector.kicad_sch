@@ -5521,17 +5521,6 @@
 		)
 		(uuid "bcdb3830-7af5-48a5-9ddf-e5d5d7c3a474")
 	)
-	(label "PF3"
-		(at 144.78 25.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bdfed8ec-f90f-4b86-aae6-651f617df35f")
-	)
 	(label "PE3"
 		(at 83.82 91.44 0)
 		(fields_autoplaced yes)
