@@ -1545,6 +1545,14 @@
 		(pin "1"
 			(uuid "259f2e0c-439b-48f1-a91e-525fa9419407")
 		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/a1e1f3d2-08a6-4ef9-b40d-891f90ca343c"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Interface_CAN_LIN:TJA1042T-3")
@@ -1762,6 +1770,14 @@
 		(pin "1"
 			(uuid "feea5694-b105-4863-a3a2-2fd6b11bc1fa")
 		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/a1e1f3d2-08a6-4ef9-b40d-891f90ca343c"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1890,6 +1906,14 @@
 		(pin "1"
 			(uuid "b131a374-1c5a-4b43-aa57-48d2893ed4f0")
 		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/a1e1f3d2-08a6-4ef9-b40d-891f90ca343c"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -1971,7 +1995,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fc02e165-8fa4-4a75-8398-9b9546f98eba")
-		(property "Reference" "C6"
+		(property "Reference" "C8"
 			(at 149.86 101.5999 0)
 			(effects
 				(font
@@ -2021,6 +2045,14 @@
 		)
 		(pin "1"
 			(uuid "7e3425de-0cf3-4478-aee6-10de42a0c580")
+		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/a1e1f3d2-08a6-4ef9-b40d-891f90ca343c"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
