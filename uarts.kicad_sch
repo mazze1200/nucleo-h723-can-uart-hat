@@ -607,7 +607,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 78.74) (xy 74.93 78.74)
+			(xy 66.04 78.74) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -647,7 +647,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 86.36) (xy 74.93 86.36)
+			(xy 66.04 86.36) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -657,7 +657,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 83.82) (xy 74.93 83.82)
+			(xy 66.04 83.82) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -677,7 +677,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 81.28) (xy 74.93 81.28)
+			(xy 66.04 81.28) (xy 74.93 81.28)
 		)
 		(stroke
 			(width 0)
@@ -687,7 +687,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 73.66) (xy 74.93 73.66)
+			(xy 66.04 73.66) (xy 74.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -697,7 +697,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 66.04) (xy 74.93 66.04)
+			(xy 66.04 66.04) (xy 74.93 66.04)
 		)
 		(stroke
 			(width 0)
@@ -717,7 +717,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 71.12) (xy 74.93 71.12)
+			(xy 66.04 71.12) (xy 74.93 71.12)
 		)
 		(stroke
 			(width 0)
@@ -727,7 +727,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 68.58) (xy 74.93 68.58)
+			(xy 66.04 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(global_label "USART2_RX"
 		(shape input)
-		(at 69.85 83.82 180)
+		(at 66.04 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -791,7 +791,7 @@
 		)
 		(uuid "177fc042-1170-4610-936f-db6711211e49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.342 83.82 0)
+			(at 52.532 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -825,7 +825,7 @@
 	)
 	(global_label "USART10_RX"
 		(shape input)
-		(at 69.85 66.04 180)
+		(at 66.04 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -835,7 +835,7 @@
 		)
 		(uuid "50864310-70e3-45d5-ba68-7dd217523af6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.1325 66.04 0)
+			(at 51.3225 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +891,7 @@
 	)
 	(global_label "USART6_TX"
 		(shape input)
-		(at 69.85 73.66 180)
+		(at 66.04 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -901,7 +901,7 @@
 		)
 		(uuid "7d16c1a4-31c4-44f2-9ee6-f1ea7c3822d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6444 73.66 0)
+			(at 52.8344 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -913,7 +913,7 @@
 	)
 	(global_label "USART3_TX"
 		(shape input)
-		(at 69.85 81.28 180)
+		(at 66.04 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -923,7 +923,7 @@
 		)
 		(uuid "930d460a-6db4-4a50-a496-867481b403cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6444 81.28 0)
+			(at 52.8344 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +979,7 @@
 	)
 	(global_label "USART10_TX"
 		(shape input)
-		(at 69.85 68.58 180)
+		(at 66.04 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -989,7 +989,7 @@
 		)
 		(uuid "acd75789-f658-4eb2-81c5-aa2a9889e9c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 55.4349 68.58 0)
+			(at 51.6249 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 	)
 	(global_label "USART6_RX"
 		(shape input)
-		(at 69.85 71.12 180)
+		(at 66.04 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1033,7 +1033,7 @@
 		)
 		(uuid "d0f2a6aa-137d-4d42-8b9c-4c145acf87cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.342 71.12 0)
+			(at 52.532 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1045,7 +1045,7 @@
 	)
 	(global_label "USART2_TX"
 		(shape input)
-		(at 69.85 86.36 180)
+		(at 66.04 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1055,7 +1055,7 @@
 		)
 		(uuid "d5f4311b-508e-465a-8496-5ff6c7e5dfbb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.6444 86.36 0)
+			(at 52.8344 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 	)
 	(global_label "USART3_RX"
 		(shape input)
-		(at 69.85 78.74 180)
+		(at 66.04 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1077,7 +1077,7 @@
 		)
 		(uuid "ed9c2184-f85e-43cd-99a1-db3dfd5ba362")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.342 78.74 0)
+			(at 52.532 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,7 +1095,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1b123647-d9d7-46db-ac39-44f9cce9d3f7")
 		(property "Reference" "#PWR024"
 			(at 66.04 76.2 0)
