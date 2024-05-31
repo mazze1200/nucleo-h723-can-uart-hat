@@ -55,7 +55,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e698a85d-766e-43f0-83c0-40cc6875931e")
-		(property "Sheetname" "Connectors"
+		(property "Sheetname" "ZIO Connector"
 			(at 16.51 14.5284 0)
 			(effects
 				(font
@@ -64,7 +64,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "connectors.kicad_sch"
+		(property "Sheetfile" "zio_connector.kicad_sch"
 			(at 16.51 38.6846 0)
 			(effects
 				(font
