@@ -584,6 +584,14 @@
     [
       "a1e1f3d2-08a6-4ef9-b40d-891f90ca343c",
       "CAN1"
+    ],
+    [
+      "ecc88370-915d-48f9-8e29-e68ead91d11e",
+      "CAN2"
+    ],
+    [
+      "f47ed58f-27f7-4b09-9f1c-00de47ea5151",
+      "CAN3"
     ]
   ],
   "text_variables": {}

@@ -81,6 +81,82 @@
 			)
 		)
 	)
+	(sheet
+		(at 113.03 15.24)
+		(size 38.1 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ecc88370-915d-48f9-8e29-e68ead91d11e")
+		(property "Sheetname" "CAN2"
+			(at 113.03 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can2.kicad_sch"
+			(at 113.03 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 158.75 15.24)
+		(size 38.1 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f47ed58f-27f7-4b09-9f1c-00de47ea5151")
+		(property "Sheetname" "CAN3"
+			(at 158.75 14.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can3.kicad_sch"
+			(at 158.75 38.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257"
+					(page "5")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
