@@ -834,16 +834,16 @@
 		(uuid "172a9007-841f-4d20-ba1d-281447440188")
 	)
 	(junction
-		(at 104.14 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "35d5fd71-501f-4054-a4e5-ebac01527ced")
-	)
-	(junction
 		(at 125.73 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e665672-6474-4b88-80ee-ff793f8f7057")
+	)
+	(junction
+		(at 104.14 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a37cb404-10b8-474d-8cdd-b7044f0b65e8")
 	)
 	(junction
 		(at 151.13 85.09)
@@ -1003,6 +1003,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 87.63) (xy 104.14 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eea7ed7-fdda-444c-bf30-082c83d52dea")
+	)
+	(wire
+		(pts
 			(xy 111.76 97.79) (xy 125.73 97.79)
 		)
 		(stroke
@@ -1093,6 +1103,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 87.63) (xy 87.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8dd3c51-087c-4cd2-988b-49a956465294")
+	)
+	(wire
+		(pts
 			(xy 125.73 100.33) (xy 125.73 106.68)
 		)
 		(stroke
@@ -1140,16 +1160,6 @@
 			(type default)
 		)
 		(uuid "e220e1fd-35ec-4e24-bf56-dddfabc326b6")
-	)
-	(wire
-		(pts
-			(xy 101.6 87.63) (xy 104.14 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2f21272-1e51-44de-bb1a-458010236c62")
 	)
 	(wire
 		(pts
@@ -1239,7 +1249,7 @@
 	)
 	(global_label "CAN3_STB"
 		(shape input)
-		(at 101.6 87.63 180)
+		(at 85.09 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1249,7 +1259,7 @@
 		)
 		(uuid "afbe65bb-174e-4e3d-8d16-3a267de0ae62")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3015 87.63 0)
+			(at 72.7915 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1641,6 +1651,74 @@
 			(project "sample"
 				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/f47ed58f-27f7-4b09-9f1c-00de47ea5151"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 91.44 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75ae6887-a9cc-4ae3-af9c-ba8e1b7ea454")
+		(property "Reference" "R12"
+			(at 91.44 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 91.44 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 91.44 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 91.44 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ed893bd-9db2-46da-843c-35d57d24fc09")
+		)
+		(pin "1"
+			(uuid "4104114a-b2b1-4a8b-8c22-4ca19be37816")
+		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257/f47ed58f-27f7-4b09-9f1c-00de47ea5151"
+					(reference "R12")
 					(unit 1)
 				)
 			)
