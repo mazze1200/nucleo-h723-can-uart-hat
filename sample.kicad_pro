@@ -576,6 +576,14 @@
     [
       "b24c09df-2e49-4fc3-a45d-ba0b1ff2d257",
       "Root"
+    ],
+    [
+      "e698a85d-766e-43f0-83c0-40cc6875931e",
+      "Connectors"
+    ],
+    [
+      "a1e1f3d2-08a6-4ef9-b40d-891f90ca343c",
+      "CAN1"
     ]
   ],
   "text_variables": {}
