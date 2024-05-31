@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 17.78 54.61)
+		(size 40.64 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "116fbb89-e37f-4c3a-9c8d-2bed8ddf28cc")
+		(property "Sheetname" "CAN Sub-D"
+			(at 17.78 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can_sub-d.kicad_sch"
+			(at 17.78 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sample"
+				(path "/b24c09df-2e49-4fc3-a45d-ba0b1ff2d257"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 15.24)
 		(size 38.1 22.86)
 		(fields_autoplaced yes)

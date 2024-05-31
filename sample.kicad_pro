@@ -592,6 +592,10 @@
     [
       "f47ed58f-27f7-4b09-9f1c-00de47ea5151",
       "CAN3"
+    ],
+    [
+      "116fbb89-e37f-4c3a-9c8d-2bed8ddf28cc",
+      "CAN Sub-D"
     ]
   ],
   "text_variables": {}
