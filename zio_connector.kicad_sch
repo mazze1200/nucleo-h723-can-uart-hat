@@ -3783,6 +3783,10 @@
 		)
 	)
 	(no_connect
+		(at 144.78 40.64)
+		(uuid "28249ece-f378-4a94-b98d-dce2fc96b2ff")
+	)
+	(no_connect
 		(at 133.35 95.25)
 		(uuid "2911594c-1b50-4899-9408-17b0358f3bb7")
 	)
@@ -3793,6 +3797,10 @@
 	(no_connect
 		(at 62.23 29.21)
 		(uuid "5a50008b-f552-40fb-9d81-748f803a8c9a")
+	)
+	(no_connect
+		(at 157.48 40.64)
+		(uuid "7ec1394d-0a9b-4f1a-9c34-68067156a053")
 	)
 	(no_connect
 		(at 146.05 97.79)
@@ -4126,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 33.02) (xy 132.08 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa31b0b-e69f-4999-8749-85539cd0b112")
+	)
+	(wire
+		(pts
 			(xy 146.05 69.85) (xy 158.75 69.85)
 		)
 		(stroke
@@ -4153,6 +4171,16 @@
 			(type default)
 		)
 		(uuid "50f0946b-61ec-4285-a8d2-fb8c04d512a0")
+	)
+	(wire
+		(pts
+			(xy 119.38 27.94) (xy 132.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "511534ee-368c-42c0-bb41-dc72b6114daf")
 	)
 	(wire
 		(pts
@@ -4436,16 +4464,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 33.02) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5c3d7ab-7d49-4ff3-9c9b-71102e570313")
-	)
-	(wire
-		(pts
 			(xy 132.08 69.85) (xy 133.35 69.85)
 		)
 		(stroke
@@ -4696,16 +4714,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 27.94) (xy 132.08 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec9942b3-d498-4178-9b92-b7bdb4edd7c1")
-	)
-	(wire
-		(pts
 			(xy 73.66 78.74) (xy 74.93 78.74)
 		)
 		(stroke
@@ -4743,16 +4751,6 @@
 			(type default)
 		)
 		(uuid "f2b2edde-4381-486c-a088-f1af83153c14")
-	)
-	(wire
-		(pts
-			(xy 144.78 40.64) (xy 157.48 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5484408-fe87-4b79-a156-c3c5ee9369d6")
 	)
 	(wire
 		(pts
@@ -5863,7 +5861,7 @@
 	)
 	(global_label "CAN1_STB"
 		(shape input)
-		(at 116.84 27.94 180)
+		(at 116.84 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5873,7 +5871,7 @@
 		)
 		(uuid "3bb9a336-5048-4405-a1a6-cd85abd18de4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5415 27.94 0)
+			(at 104.5415 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
