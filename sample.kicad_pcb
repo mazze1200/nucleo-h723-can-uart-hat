@@ -107,10 +107,10 @@
 	(net 25 "CAN2_RX")
 	(net 26 "CAN3_RX")
 	(net 27 "CAN3_TX")
-	(net 28 "/ZIO Connector/PB8")
+	(net 28 "/ZIO Connector/PF7")
 	(net 29 "/ZIO Connector/PB15")
-	(net 30 "/ZIO Connector/PB5")
-	(net 31 "/ZIO Connector/PB9")
+	(net 30 "/ZIO Connector/PD1")
+	(net 31 "/ZIO Connector/PD0")
 	(net 32 "/ZIO Connector/PD14")
 	(net 33 "/ZIO Connector/PB3")
 	(net 34 "/ZIO Connector/PA5")
@@ -152,7 +152,7 @@
 	(net 70 "/ZIO Connector/PB0")
 	(net 71 "/ZIO Connector/PE9")
 	(net 72 "/ZIO Connector/PE0")
-	(net 73 "/ZIO Connector/PB2")
+	(net 73 "/ZIO Connector/PF6")
 	(net 74 "/ZIO Connector/PG14")
 	(net 75 "/ZIO Connector/PE10")
 	(net 76 "/ZIO Connector/PE12")
@@ -419,7 +419,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(uuid "8c1a51f3-bb86-499a-8733-28564bdbfb62")
 			(effects
@@ -430,7 +430,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(uuid "a40e5dea-8380-4db6-b2a3-4b891bcda1c3")
 			(effects
@@ -582,7 +582,7 @@
 			(uuid "6cb7f9e5-3323-4e48-8e6b-5acf908eed2b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "b2167eed-4ba6-4093-9683-b1ade981c5f7")
 			(effects
@@ -1562,7 +1562,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "CAN1_RX")
+			(net 31 "/ZIO Connector/PD0")
 			(pinfunction "Pin_25")
 			(pintype "passive")
 			(uuid "5d08051e-e9a8-49e4-b177-007b4bf39d47")
@@ -1573,7 +1573,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 27 "CAN3_TX")
+			(net 28 "/ZIO Connector/PF7")
 			(pinfunction "Pin_26")
 			(pintype "passive")
 			(uuid "50eabd81-c110-439a-99be-dde93d9a781a")
@@ -1584,7 +1584,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "CAN1_TX")
+			(net 30 "/ZIO Connector/PD1")
 			(pinfunction "Pin_27")
 			(pintype "passive")
 			(uuid "58a38936-e7e7-4b2e-b13c-12cf4e217625")
@@ -2165,7 +2165,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(uuid "78d2f145-72fe-4e1b-bffc-c14e80ef0928")
 			(effects
@@ -2176,7 +2176,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(uuid "c14d1fbb-608a-44b4-a5c0-121c87af74a0")
 			(effects
@@ -2328,7 +2328,7 @@
 			(uuid "aa676849-b7f6-4c12-bf4c-6e9ab212d74e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "ff6c5970-d64e-4643-9d34-81966204af17")
 			(effects
@@ -2371,7 +2371,7 @@
 	(footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 		(layer "F.Cu")
 		(uuid "3ed725b0-3901-40ca-a547-d37f4b93062d")
-		(at 138.75 83.15)
+		(at 161.75 73.65)
 		(descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
 		(tags "CONN DEV")
 		(property "Reference" "JP1"
@@ -3632,7 +3632,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "/ZIO Connector/PB8")
+			(net 14 "CAN1_RX")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "e1a8887b-c04e-4730-a4c1-b280c31e5d1a")
@@ -3654,7 +3654,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 31 "/ZIO Connector/PB9")
+			(net 13 "CAN1_TX")
 			(pinfunction "Pin_4")
 			(pintype "passive")
 			(uuid "304ef959-e43a-49b7-9f73-da2f64d72056")
@@ -3687,7 +3687,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 25 "CAN2_RX")
+			(net 17 "CAN1_STB")
 			(pinfunction "Pin_7")
 			(pintype "passive")
 			(uuid "62b701c3-262d-4075-aaba-e798a24e0faf")
@@ -3753,7 +3753,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/ZIO Connector/PB5")
+			(net 25 "CAN2_RX")
 			(pinfunction "Pin_13")
 			(pintype "passive")
 			(uuid "35e86773-dfab-4ee6-8965-e41ad73b2f79")
@@ -3764,7 +3764,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "/ZIO Connector/PB5")
+			(net 25 "CAN2_RX")
 			(pinfunction "Pin_14")
 			(pintype "passive")
 			(uuid "131a34c2-30ac-4456-a19a-9107a5e7c8e5")
@@ -3850,7 +3850,7 @@
 	(footprint "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 		(layer "F.Cu")
 		(uuid "619c2a44-c356-4cd3-b139-484f076e9b43")
-		(at 138.75 86.5)
+		(at 161.75 77)
 		(descr "Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm")
 		(tags "CONN DEV")
 		(property "Reference" "JP2"
@@ -4747,7 +4747,7 @@
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C6"
-			(at 0 -1.85 360)
+			(at 0 -1.85 0)
 			(layer "F.SilkS")
 			(uuid "c6bc65ed-5432-459c-8b2d-cd1ef61d1270")
 			(effects
@@ -4910,7 +4910,7 @@
 			(uuid "9d4174c6-8d2d-4359-abbd-0193ebfc97b4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "229a9d58-4a01-4ef2-a1ad-44927aea3eb7")
 			(effects
@@ -6218,7 +6218,7 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R3"
-			(at 0 -1.82 270)
+			(at 0 -1.82 -90)
 			(layer "F.SilkS")
 			(uuid "dc43e70f-00ce-44f6-9711-296d6f6747cc")
 			(effects
@@ -6229,7 +6229,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 0 1.82 270)
+			(at 0 1.82 -90)
 			(layer "F.Fab")
 			(uuid "7de29431-684e-47c8-862f-a8b70caf331f")
 			(effects
@@ -6381,7 +6381,7 @@
 			(uuid "3fab48fe-2295-4526-8880-f9459dc5d485")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "18a3e4ea-5c1b-49d3-9b38-2208b702f554")
 			(effects
@@ -8152,7 +8152,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 26 "CAN3_RX")
+			(net 73 "/ZIO Connector/PF6")
 			(pinfunction "Pin_11")
 			(pintype "passive")
 			(uuid "287be3fe-35c4-42e7-9f63-46e098607f4f")
@@ -8196,7 +8196,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 73 "/ZIO Connector/PB2")
+			(net 18 "CAN2_STB")
 			(pinfunction "Pin_15")
 			(pintype "passive")
 			(uuid "58d15039-5efc-4f7a-96ed-7af8cb3b404b")
@@ -8240,7 +8240,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 15 "CAN3_STB")
+			(net 27 "CAN3_TX")
 			(pinfunction "Pin_19")
 			(pintype "passive")
 			(uuid "2f75d53b-651d-4c87-b9f4-ac64f7a0f7fe")
@@ -8262,7 +8262,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 18 "CAN2_STB")
+			(net 26 "CAN3_RX")
 			(pinfunction "Pin_21")
 			(pintype "passive")
 			(uuid "c0265f75-34a9-4a03-ab74-26748d6efa14")
@@ -8284,7 +8284,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 17 "CAN1_STB")
+			(net 15 "CAN3_STB")
 			(pinfunction "Pin_23")
 			(pintype "passive")
 			(uuid "904fdb38-b142-4568-bfb7-3db99d606ee1")
@@ -10332,7 +10332,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 0 1.85 360)
+			(at 0 1.85 0)
 			(layer "F.Fab")
 			(uuid "4007ff98-f9cc-441f-8d7a-ba4fb86057e3")
 			(effects
@@ -10484,7 +10484,7 @@
 			(uuid "beef60bc-8e7a-4ec7-8124-9665149c0394")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ded21671-75b7-43c1-a906-8032c69176e2")
 			(effects
