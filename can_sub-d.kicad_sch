@@ -604,9 +604,51 @@
 			)
 		)
 	)
+	(junction
+		(at 64.77 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a53b8f3-113a-4a13-91b1-afce64336c0e")
+	)
+	(junction
+		(at 63.5 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bda5294c-c8fc-41e5-aca5-1ab179ab481f")
+	)
 	(wire
 		(pts
-			(xy 63.5 66.04) (xy 67.31 66.04)
+			(xy 64.77 66.04) (xy 64.77 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0480072e-00b7-408f-a7b4-d2b50317e1d0")
+	)
+	(wire
+		(pts
+			(xy 64.77 66.04) (xy 67.31 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f9b8eee-9005-4dcf-b679-631010232338")
+	)
+	(wire
+		(pts
+			(xy 63.5 53.34) (xy 67.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21d724e4-0f69-4dff-bc1e-9315428ee63f")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 64.77 66.04)
 		)
 		(stroke
 			(width 0)
@@ -616,7 +658,17 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 66.04) (xy 53.34 66.04)
+			(xy 63.5 48.26) (xy 63.5 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f5baf71-ffcb-4a82-b751-5d912ace5709")
+	)
+	(wire
+		(pts
+			(xy 48.26 66.04) (xy 49.53 66.04)
 		)
 		(stroke
 			(width 0)
@@ -656,7 +708,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 53.34 53.34)
+			(xy 48.26 53.34) (xy 49.53 53.34)
 		)
 		(stroke
 			(width 0)
@@ -676,7 +728,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 53.34) (xy 67.31 53.34)
+			(xy 59.69 53.34) (xy 63.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -744,6 +796,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2_HR"
+		(shape input)
+		(at 63.5 48.26 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4a2fbb07-c80e-4cd1-beeb-cf33d3ca04c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 36.8081 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -827,6 +901,28 @@
 		(uuid "ad20466b-399f-4bb5-9556-e2f956c13b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.3805 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN2_LR"
+		(shape input)
+		(at 64.77 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e4e3c054-4533-472e-8736-f85a7e0c6063")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 82.2695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1160,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 58.42 66.04 0)
+		(at 54.61 66.04 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1073,7 +1169,7 @@
 		(fields_autoplaced yes)
 		(uuid "5152feb2-2f3e-47e7-848a-efe61a9f4c21")
 		(property "Reference" "JP2"
-			(at 58.42 60.96 0)
+			(at 54.61 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1081,7 +1177,7 @@
 			)
 		)
 		(property "Value" "CAN 2 Low"
-			(at 58.42 63.5 0)
+			(at 54.61 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1185,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 58.42 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1194,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1203,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 58.42 66.04 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1223,7 +1319,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 58.42 53.34 0)
+		(at 54.61 53.34 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -1232,7 +1328,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1240641-fa31-43e2-bde6-d23d05686632")
 		(property "Reference" "JP1"
-			(at 58.42 48.26 0)
+			(at 54.61 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1240,7 +1336,7 @@
 			)
 		)
 		(property "Value" "CAN 2 High"
-			(at 58.42 50.8 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,7 +1344,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 58.42 53.34 0)
+			(at 54.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,7 +1353,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 53.34 0)
+			(at 54.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,7 +1362,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 58.42 53.34 0)
+			(at 54.61 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
