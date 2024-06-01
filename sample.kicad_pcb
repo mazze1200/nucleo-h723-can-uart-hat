@@ -1637,7 +1637,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "3379f2ff-d438-4598-9062-9439ea41ac8b")
-		(at 127.4 89.74)
+		(at 128.27 89.74)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U2"
@@ -2844,7 +2844,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "4aa5a948-5851-462c-b05c-b8eacbd40137")
-		(at 127.9 117.74)
+		(at 128.27 117.74)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U3"
@@ -5163,7 +5163,7 @@
 	(footprint "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm"
 		(layer "F.Cu")
 		(uuid "8d252853-979d-4f94-aa87-57e85e50fc23")
-		(at 163.269669 53.69 90)
+		(at 163.269669 52.95 90)
 		(descr "9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.54mm, pin-PCB-offset 9.4mm, see http://docs-europe.electrocomponents.com/webdocs/1585/0900766b81585df2.pdf")
 		(tags "9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.54mm pin-PCB-offset 9.4mm")
 		(property "Reference" "CAN1"
@@ -6634,7 +6634,7 @@
 	(footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "b2971418-fbd7-4e78-aad2-3c458a5bb2c9")
-		(at 129.4 58.24)
+		(at 128.27 57.74)
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
@@ -12434,16 +12434,6 @@
 		)
 	)
 	(gr_line
-		(start 98.9 126.74)
-		(end 178.401667 126.74)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "6fb5e832-7510-4190-afbf-ccc97a9da99d")
-	)
-	(gr_line
 		(start 103.4 126.74)
 		(end 103.4 94.74)
 		(stroke
@@ -12452,5 +12442,13 @@
 		)
 		(layer "F.SilkS")
 		(uuid "707115a3-688b-4365-8510-bcb953351a24")
+	)
+	(segment
+		(start 130.745 57.105)
+		(end 165.809669 57.105)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 19)
+		(uuid "40110551-91ea-40df-be0a-5742ac0d57b4")
 	)
 )
