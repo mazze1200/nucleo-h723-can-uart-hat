@@ -3966,16 +3966,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 33.02) (xy 132.08 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b0b2c7-35cf-4316-ac8c-a6d802164420")
-	)
-	(wire
-		(pts
 			(xy 120.65 80.01) (xy 133.35 80.01)
 		)
 		(stroke
@@ -4446,13 +4436,13 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 27.94) (xy 132.08 27.94)
+			(xy 119.38 33.02) (xy 132.08 33.02)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b382fd0e-4279-4f7d-87d4-ed72c8a5c77a")
+		(uuid "b5c3d7ab-7d49-4ff3-9c9b-71102e570313")
 	)
 	(wire
 		(pts
@@ -4703,6 +4693,16 @@
 			(type default)
 		)
 		(uuid "ec4ccc4e-a6cd-4f66-8a64-7f56fc042fc1")
+	)
+	(wire
+		(pts
+			(xy 116.84 27.94) (xy 132.08 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9942b3-d498-4178-9b92-b7bdb4edd7c1")
 	)
 	(wire
 		(pts
@@ -5863,7 +5863,7 @@
 	)
 	(global_label "CAN1_STB"
 		(shape input)
-		(at 116.84 33.02 180)
+		(at 116.84 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5873,7 +5873,7 @@
 		)
 		(uuid "3bb9a336-5048-4405-a1a6-cd85abd18de4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5415 33.02 0)
+			(at 104.5415 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
